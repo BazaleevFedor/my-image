@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  margin: 5px;
+  border-radius: 12px;
+  font-size: 16px;
+
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+
+  font-family: MailSansRoman, sans-serif;
+}
+
+.locked {
+  background: rgba(108, 111, 114, 0.42);
+  color: #FFFFFF;
+}
+
+.unlocked {
+  background: #6C6F72;
+  color: #FFFFFF;
+  cursor: pointer;
+}

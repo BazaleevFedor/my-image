@@ -1,0 +1,22 @@
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-rows: repeat(auto-fill, 200px);
+  grid-gap: 10px;
+
+  padding: 2% 10%;
+  width: 100%;
+  height: max-content;
+}
+
+.tag {
+  font-family: Limelight, sans-serif;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+.images__item {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}

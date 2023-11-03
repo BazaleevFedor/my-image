@@ -1,0 +1,9 @@
+.main {
+    display: grid;
+    grid-template-rows: 2px 1fr;
+
+    padding-top: 5vh;
+
+    height: max-content;
+    background: #f5f5f5;
+}
